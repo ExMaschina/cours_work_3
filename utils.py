@@ -1,13 +1,13 @@
 def get_transactions(data):
-    """Чтение json-файла"""
+    """Получение успешных транзакций"""
     items = [item for item in data if item.get('state') == 'EXECUTED']
     return items
 
 
-def successful_actions(succ_items):
+def sort_date(sorted_date):
     """Создание списка успешных операций"""
-    succ_items.sort(key=lambda x: x.get('date'), reverse=True)
-    return succ_items
+    sorted_date.sort(key=lambda x: x.get('date'), reverse=True)
+    return sorted_date
 
 
 def chosen_actions(sort_items):
