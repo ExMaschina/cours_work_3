@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa4012d-0465-457d-a9b6-a9f3b9273a7f" name="Changes" comment="last comm">
+    <list default="true" id="7aa4012d-0465-457d-a9b6-a9f3b9273a7f" name="Changes" comment="for reading json commit">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_19_19_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_19_19_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_02_2024_19_19__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.pytest in test_utils.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cours_work_backend" />
       <option name="ENV_FILES" value="" />
@@ -171,23 +175,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_utils.test_get_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="cours_work_backend" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_utils.test_get_account&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_utils.test_get_money" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="cours_work_backend" />
       <option name="ENV_FILES" value="" />
@@ -203,6 +190,23 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_utils.test_get_money&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_utils.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="cours_work_backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_utils.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
@@ -224,20 +228,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.utils" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.utils" />
       <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest in test_utils.py" />
       <item itemvalue="Python tests.pytest for test_utils.test_chosen_actions" />
       <item itemvalue="Python tests.pytest for test_utils.test_get_money" />
-      <item itemvalue="Python tests.pytest for test_utils.test_get_account" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_utils.py" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_money" />
         <item itemvalue="Python.utils" />
         <item itemvalue="Python tests.pytest for test_utils.test_chosen_actions" />
-        <item itemvalue="Python tests.pytest for test_utils.test_get_account" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706730111745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="for reading json commit">
+      <option name="closed" value="true" />
+      <created>1707243149631</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707243149631</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +339,7 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="2 commit" />
     <MESSAGE value="3 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 commit" />
+    <MESSAGE value="for reading json commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="for reading json commit" />
   </component>
 </project>

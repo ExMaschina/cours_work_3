@@ -19,7 +19,7 @@ def chosen_actions(sort_items):
 def date_correction(date):
     """Исправление формата даты"""
     corr_date = date.split('T')
-    return corr_date[0][-2:] + corr_date[0][-6:-2] + corr_date[0][-10:-6]
+    return corr_date[0][-2:] + "." + corr_date[0][-5:-3] + "." + corr_date[0][-10:-6]
 
 
 def get_card(item):
@@ -27,7 +27,7 @@ def get_card(item):
     if item['description'] != 'Открытие вклада':
         card = item['from'].split()
         if len(card) == 3:
-            return card[0] + card[1] + ' ' + card[2][-16:-12] + ' ' + card[2][-12:-10] + '** ****' + ' ' + card[2][-4:]
+            return card[0] + " " + card[1] + ' ' + card[2][-16:-12] + ' ' + card[2][-12:-10] + '** ****' + ' ' + card[2][-4:]
         if len(card) == 2:
             return card[0] + ' ' + card[1][-16:-12] + ' ' + card[1][-12:-10] + '** ****' + ' ' + card[1][-4:]
     else:
