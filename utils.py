@@ -29,7 +29,10 @@ def get_card(item):
         if len(card) == 3:
             return card[0] + " " + card[1] + ' ' + card[2][-16:-12] + ' ' + card[2][-12:-10] + '** ****' + ' ' + card[2][-4:]
         if len(card) == 2:
-            return card[0] + ' ' + card[1][-16:-12] + ' ' + card[1][-12:-10] + '** ****' + ' ' + card[1][-4:]
+            if card[0] != "Счет":
+                return card[0] + ' ' + card[1][-16:-12] + ' ' + card[1][-12:-10] + '** ****' + ' ' + card[1][-4:]
+            else:
+                return card[0] + ' ' + '**' + card[0][-4:]
     else:
         return ""
 

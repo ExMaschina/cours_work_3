@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa4012d-0465-457d-a9b6-a9f3b9273a7f" name="Changes" comment="08.02.24 reworked" />
+    <list default="true" id="7aa4012d-0465-457d-a9b6-a9f3b9273a7f" name="Changes" comment="08.02.24 reworked">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.pytest in test_utils.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cours_work_backend" />
       <option name="ENV_FILES" value="" />
@@ -229,8 +231,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_utils.py" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest in test_utils.py" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_money" />
         <item itemvalue="Python.utils" />
         <item itemvalue="Python tests.pytest for test_utils.test_chosen_actions" />
@@ -309,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707398752952</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="08.02.24 reworked">
+      <option name="closed" value="true" />
+      <created>1707399007185</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707399007185</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
