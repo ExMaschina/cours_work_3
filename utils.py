@@ -32,7 +32,7 @@ def get_card(item):
             if card[0] != "Счет":
                 return card[0] + ' ' + card[1][-16:-12] + ' ' + card[1][-12:-10] + '** ****' + ' ' + card[1][-4:]
             else:
-                return card[0] + ' ' + '**' + card[0][-4:]
+                return card[0] + ' ' + '**' + card[1][-4:]
     else:
         return ""
 
